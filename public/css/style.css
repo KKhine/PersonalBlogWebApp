@@ -1,0 +1,119 @@
+body{
+    margin: 0%;
+    font-size: 17px;
+}
+.header{
+    background-color: black;
+    padding: 30px; 
+    color: white;
+    text-align: center;
+}
+#header-img{
+    width: 70%;
+    background-color: black;  
+    border-radius: 50%;
+   
+}
+#navbar{
+    background-color: black;
+    overflow: hidden;
+  
+}
+#navbar a{
+    display: block;
+    float: left;
+    color:white;
+    text-decoration: none;
+    padding: 20px 16px;
+    text-align: center;
+}
+#navbar a:hover{
+background-color: gray;
+color: black;
+}
+.fixMe{
+    position: fixed;
+    top: 0;
+    z-index: 5;
+}
+.aboutme{
+    padding: 10px;
+   
+    text-align: justify;
+}
+.total-student,.total-project{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.fontawsome{
+    font-size: 30px;
+    color:green;
+}
+
+.sample-project{
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: center;
+}
+.latest-post img{
+    height: 230px;
+width: 100%;
+border-radius: 5px;
+}
+.latest-post p{
+    text-align: justify;
+}
+.footer{
+    background-color: black;
+    color:white;
+    padding: 100px;
+    
+}
+.footer p{
+    font-size: 17px;
+    text-align: justify;
+}
+.media-icon :hover{
+    font-size: 40px;
+    color: beige;
+}
+.blog{
+    padding: 20px;
+}
+.blog img{
+    width: 100%;
+
+}
+.sidebar{
+    padding: 20px;
+}
+.sidebar input[type='text']{
+    border-radius: 5px 0px 0px 5px;
+}
+.sidebar button{
+    border-radius: 0px 5px 5px 0px;
+}
+.post-detail{
+    padding: 30px;
+    text-align:justify;
+
+}
+.post-detail img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+.comment-section img{
+    width: 30px;
+}
+.comment-section .message-box{
+    /* border: 1px solid gray; */
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightsteelblue;
+}
